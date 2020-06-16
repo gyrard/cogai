@@ -145,3 +145,23 @@ Proprioception provides the means to be aware of your joint positions and muscle
 For speech, a pipelined approach is needed that maps a graph representing an utterance into a sequence of words, and from that into a sequence of phonemes. The process of converting this into sound involves coordination of many muscles. The tip of the tongue can be moved quickly, but it takes much longer to move the jaw. This necessitates initiating jaw movements prior to the tip of the tongue. Speech thus involves careful orchestration of multiple actuators over different time scales. Human infants spend a lot of time babbling, learning how to make the sounds they hear from their parents.
 
 For mobile robots, weight is an important consideration, as lower weight will require less power and enable longer operation. Light robot arms are likely to flex as power is applied to a joint. This needs to dynamically compensated for, to avoid the robot hand overshooting the target. Actions involve a mix of planning and reinforcement learning. In some cases, you imagine performing the action before initiating it, for instance, as when a cat pauses before making a big jump to the top of a cupboard. With practice, plans can be compiled into rules that lessen the effort to prepare an action. 
+
+## Sensor-based Linked Open Rules (SLOR) & Linked Open Reasoning
+S-LOR (Sensor-based Linked Open Rules) is a rule-based reasoning engine for sharing and reusing interoperable rules to deduce meaningful knowledge from sensor measurements.
+
+Sensor-based Linked Open Rules (SLOR) running demo on a web page: http://linkedopenreasoning.appspot.com/?p=slorv2
+How to reason on sensor data?
+Select a domain (e.g., Health) and we provide you rules (e.g., Body temperature -> High Fever) and projects for various sensors.
+
+SLOR uses semantic web languages and technologies such as datasets and ontlogies with RDF, RDFS, OWL, SPARQL, Jena Framework, Jena infernece engine, Knowledge Graphs, Linked Open Data, Linked Open Vocabularies, Linked Open Rules, etc.
+
+Publications: http://linkedopenreasoning.appspot.com/?p=publication
+Linked Open Reasoning Website: http://linkedopenreasoning.appspot.com/
+
+We have numerous scenario using S-LOR
+- Naturopathy: http://sensormeasurement.appspot.com/?p=naturopathy
+- Smart home: http://sensormeasurement.appspot.com/?p=home
+- Transport: http://sensormeasurement.appspot.com/?p=transport
+- Tourism: http://sensormeasurement.appspot.com/?p=tourism
+
+
